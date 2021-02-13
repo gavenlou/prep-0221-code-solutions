@@ -1,0 +1,17 @@
+My Goals:
+
+Be able to make a functional website.
+  • Not ugly.
+  • Has a database to pull from.
+  • Doesn't confuse me.
+  • Doesn't confuse them.
+
+Make some fun stuff for myself.
+  • I have a little discord bot, but lean alot on documentation.
+    - I would like to understand it rather than piece it together.
+  • Make some useful scripts/websites for myself or friends.
+
+Just learn more about coding, especially data structures.
+  • Just learn better, more efficent, ways to code.
+  • Understand the stack finally. Hopefully.
+  • Learn how to use git. Thanks!
