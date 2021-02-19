@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    img {
+      width: 100%;
+      height: 450px;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<div class="container">
+  <h1>Harry Potter</h1>
+    <div class="row">
+      <div class="column">
+        <!-- I picked out my own images, the 'real' way would be src="images/image.jpg" -->
+        <img src="https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY1200_CR90,0,630,1200_AL_.jpg"
+        alt="First HP Movie">
+        <h3>The Sorcerer's Stone</h3>
+        <p>
+          Adaptation of the first of J.K. Rowling's popular children's novels about Harry Potter, a boy who learns on his eleventh
+          birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is
+          summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards.
+          There, he meets several friends who become his closest allies and help him discover the truth about his parents'
+          mysterious deaths.
+        </p>
+      </div>
+      <div class="column">
+        <img src="https://play-lh.googleusercontent.com/k20SLgBYYou445TeVz8oWo-ba7rifGOVYeghk8MqrLbbQCS5SK9yQ4J5DQlEaVYGAK0"
+        alt="Second HP Movie">
+        <h3>The Chamber of Secrets</h3>
+        <p>
+          The second instalment of boy wizard Harry Potter's adventures at Hogwarts School of Witchcraft and Wizardry, based on
+          the novel by JK Rowling. A mysterious elf tells Harry to expect trouble during his second year at Hogwarts, but nothing
+          can prepare him for trees that fight back, flying cars, spiders that talk and deadly warnings written in blood on the
+          walls of the school.
+        </p>
+      </div>
+      <div class="column">
+        <img src="https://static.wikia.nocookie.net/harrypotter/images/a/a8/Harry_Potter_and_the_Prisoner_of_Azkaban_2.jpg/revision/latest?cb=20130803163319"
+        alt="Third HP Movie">
+        <h3>The Prisoner of Azkaban</h3>
+        <p>
+          Harry Potter's (Daniel Radcliffe) third year at Hogwarts starts off badly when he learns deranged killer Sirius Black
+          (Gary Oldman) has escaped from Azkaban prison and is bent on murdering the teenage wizard. While Hermione's (Emma
+          Watson) cat torments Ron's (Rupert Grint) sickly rat, causing a rift among the trio, a swarm of nasty Dementors is sent
+          to protect the school from Black. A mysterious new teacher helps Harry learn to defend himself, but what is his secret
+          tie to Sirius Black?
+        </p>
+      </div>
+    </div>
+</div>
+</body>
+</html>
